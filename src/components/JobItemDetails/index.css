@@ -1,0 +1,293 @@
+.job-item-detail-container {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.job-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-card-container {
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .detail-card-container {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .detail-card-container {
+    width: 60%;
+  }
+}
+
+.card-content-container {
+  background-color: #272727;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.company-logo {
+  width: 62px;
+  margin-right: 10px;
+}
+
+.logo-title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.company-title {
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-bottom: 6px;
+  margin-top: 0;
+}
+
+.star-rating-container {
+  display: flex;
+  align-items: center;
+}
+.star-img {
+  color: #fbbf24;
+}
+
+.rating {
+  color: white;
+  font-size: 16px;
+  align-self: flex-start;
+  margin: 0;
+  margin-left: 6px;
+}
+
+.location-type-package-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location-type-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-logo {
+  color: white;
+  font-size: 22px;
+}
+
+.location-name {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+.job-type-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.job-type {
+  color: white;
+  font-size: 22px;
+}
+
+.job-name {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+.package {
+  color: white;
+  font-family: 'Roboto';
+}
+
+.description-visit-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job-description-heading {
+  color: white;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.visit {
+  font-size: 18px;
+  margin-right: 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.link-img {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.link-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.job-description {
+  color: white;
+  margin-top: 0;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 2;
+}
+
+.skills-heading {
+  color: white;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.life-at-company {
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.life-container {
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .life-container {
+    flex-direction: column;
+  }
+}
+
+.life-description {
+  color: white;
+  font-size: 14px;
+  font-family: 'Roboto';
+  line-height: 1.8;
+  margin-top: 0;
+}
+
+.life-image {
+  width: 250px;
+  margin-left: 30px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 767px) {
+  .life-image {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.skill-list-container {
+  padding: 0;
+  /* width: 100%; */
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+.similar-job-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+.similar-job-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 10px;
+}
+
+.fail-img {
+  max-width: 400px;
+}
+@media screen and (max-width: 767px) {
+  .fail-img {
+    width: 80%;
+  }
+}
+
+.failure-heading {
+  text-align: center;
+  color: white;
+  font-size: 38px;
+  font-family: 'Roboto';
+  margin-top: 20px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .failure-heading {
+    font-size: 22px;
+  }
+}
+
+.failure-description {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .failure-description {
+    font-size: 14px;
+  }
+}
+
+.retry-btn {
+  color: white;
+  background-color: #4f46e5;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+}
+
+.separator {
+  border: 1px solid #475569;
+}

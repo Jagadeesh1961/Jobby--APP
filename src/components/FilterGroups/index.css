@@ -1,0 +1,48 @@
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.type-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.input-type-checkbox {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.input-label-checkbox {
+  color: #f1f5f9;
+  padding-left: 10px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.filters-heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+
+.filters-lists {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0;
+}
+
+.filter-separator {
+  border: 1px solid #2c364c;
+  width: 100%;
+}

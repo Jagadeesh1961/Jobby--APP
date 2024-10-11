@@ -1,0 +1,86 @@
+.nav-header {
+  background-color: #272727;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 30px;
+}
+
+.website-header-logo {
+  width: 80px;
+}
+
+.nav-mobile-menu {
+  list-style-type: none;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile-menu {
+    display: none;
+  }
+}
+
+.nav-mobile-item {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.nav-icon {
+  font-size: 22px;
+  color: white;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+.nav-menu-item {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.logout-btn {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .logout-btn {
+    display: none;
+  }
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.logout-icon-btn {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
