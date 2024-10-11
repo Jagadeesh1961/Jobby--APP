@@ -1,4 +1,9 @@
-In this project, let's build a **Jobby App** by applying the concepts we have learned till now.
+
+### Access the app through this link 
+- (https://loyajobbyapp.ccbp.tech/login)
+- username : rahul
+- password : rahul@2021
+
 
 ### Refer to videos below:
 
